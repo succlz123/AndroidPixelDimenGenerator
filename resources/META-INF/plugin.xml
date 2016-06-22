@@ -1,0 +1,48 @@
+<idea-plugin version="2">
+    <id>org.succlz123.androidpixeldimengenerator</id>
+    <name>AndroidPixelDimenGenerator</name>
+    <version>1.0</version>
+    <vendor email="succlz123@gmail.com" url="http://www.github.com/succlz123/AndroidPixelDimenGenerator">succlz123</vendor>
+
+    <description><![CDATA[
+      根据输入的像素来自动生成Android项目的dimen.xml文件,主要是为了适配国产Android TV盒子的各种分辨率<br>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      0.1 </em>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="141.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- InputPanel your extensions here -->
+        <!--<applicationConfigurable instance="MyApplicationComponent" displayName="AutoGeneratePixelDimen"/>-->
+    </extensions>
+
+    <actions>
+
+        <action id="AndroidPixelDimenGenerator.text" class="org.succlz123.androidpixeldimengenerator.plugin.MainAnAction" text="AutoGeneratePixelDimen">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+
+    </actions>
+
+    <application-components>
+
+        <component>
+
+            <implementation-class>org.succlz123.androidpixeldimengenerator.plugin.MyApplicationComponent</implementation-class>
+
+        </component>
+
+    </application-components>
+
+</idea-plugin>

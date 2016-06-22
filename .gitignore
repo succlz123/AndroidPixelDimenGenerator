@@ -1,0 +1,13 @@
+*.class
+*.log
+.idea
+*.iml
+
+bin
+gen
+build
+out
+out
+lib
+
+.DS_Store
