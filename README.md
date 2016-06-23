@@ -10,7 +10,7 @@
 
 - 打开Android Studio - Preferences - Plugins - Install plugin from disk - Restart Android Studio
 
-- 点击Tools菜单 - AutoGeneratePixelDimen
+- 点击Tools菜单 - AndroidPixelDimenGenerator
 
 - 根据提示输入分辨率的取值范围和分辨率
 
