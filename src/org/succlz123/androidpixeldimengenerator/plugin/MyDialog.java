@@ -187,6 +187,6 @@ public class MyDialog extends DialogWrapper {
     }
 
     private void showMessageDialog(String message) {
-        Messages.showErrorDialog(project, message, "AutoGeneratePixelDimen");
+        Messages.showErrorDialog(project, message, MainAnAction.PROJECT_NAME);
     }
 }

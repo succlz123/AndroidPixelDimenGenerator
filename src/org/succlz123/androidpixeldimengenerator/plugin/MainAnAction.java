@@ -10,6 +10,7 @@ import com.intellij.openapi.ui.Messages;
  * Created by succlz123 on 16/6/14.
  */
 public class MainAnAction extends AnAction {
+    public static final String PROJECT_NAME = "AndroidPixelDimenGenerator";
 
     @Override
     public void actionPerformed(AnActionEvent anActionEvent) {
@@ -24,7 +25,7 @@ public class MainAnAction extends AnAction {
         myDialog.show();
         if (myDialog.isOK()) {
             Messages.showMessageDialog(project, "生成像素dimen文件成功\nGenerate pixel dimen file success",
-                    "AutoGeneratePixelDimen", Messages.getInformationIcon());
+                    PROJECT_NAME, Messages.getInformationIcon());
         }
 //        String txt = Messages.showMultilineInputDialog(project,
 //                "请按照示例添加所需的分辨率",
