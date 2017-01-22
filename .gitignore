@@ -1,13 +1,7 @@
-*.class
-*.log
-.idea
 *.iml
 
-bin
-gen
 build
-out
-out
 lib
+out
 
 .DS_Store

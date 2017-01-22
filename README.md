@@ -1,6 +1,6 @@
 # AndroidPixelDimenGenerator
 
-![1](https://github.com/succlz123/AndroidPixelDimenGenerator/blob/master/snapshot/1.jpeg "")
+![1](https://github.com/succlz123/AndroidPixelDimenGenerator/blob/master/snapshot/1.webp "")
 
 ## Android Studio插件简介
 根据输入的像素来自动生成Android项目的dimen.xml文件,主要是为了适配国产Android TV盒子的各种分辨率。
