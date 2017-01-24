@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>org.succlz123.androidpixeldimengenerator</id>
-    <name>AndroidPixelDimenGenerator</name>
-    <version>1.0</version>
+    <name>Android Pixel Dimen Generator</name>
+    <version>1.1</version>
     <vendor email="succlz123@gmail.com" url="http://www.github.com/succlz123/AndroidPixelDimenGenerator">succlz123</vendor>
 
     <description><![CDATA[
@@ -9,7 +9,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
-      0.1 </em>
+      - - </em>
     ]]>
     </change-notes>
 

@@ -46,7 +46,7 @@
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="-1000"/>
+          <text value="-100"/>
         </properties>
       </component>
       <component id="d4eb7" class="javax.swing.JLabel" binding="text1">
@@ -56,7 +56,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="请按照示例输入所需像素的正负范围 (默认 1000 -1000)"/>
+          <text value="请按照示例输入所需像素的正负范围 (1000 和 -100)"/>
         </properties>
       </component>
       <component id="6a4db" class="javax.swing.JTextField" binding="textField1">
@@ -74,7 +74,7 @@
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Please input the pixel of the positive and negative (Default 1000 -1000)"/>
+          <text value="Please input the pixel of the positive and negative (1000 \ -100)"/>
         </properties>
       </component>
     </children>

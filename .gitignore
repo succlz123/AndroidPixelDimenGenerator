@@ -2,6 +2,6 @@
 
 build
 lib
-out
+out/production
 
 .DS_Store

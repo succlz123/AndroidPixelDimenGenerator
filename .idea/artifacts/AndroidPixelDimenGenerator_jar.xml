@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AndroidPixelDimenGenerator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AndroidPixelDimenGenerator_jar</output-path>
+    <root id="archive" name="AndroidPixelDimenGenerator.jar">
+      <element id="module-output" name="AndroidPixelDimenGenerator" />
+    </root>
+  </artifact>
+</component>

@@ -65,7 +65,7 @@ public class MyDialog extends DialogWrapper {
         }
 
         int positiveEnd = 1000;
-        int negativeEnd = -1000;
+        int negativeEnd = -100;
 
         try {
             positiveEnd = Integer.valueOf(inputPanel.getPositiveNumber());
@@ -138,14 +138,14 @@ public class MyDialog extends DialogWrapper {
         SAXGenerator saxGenerator = new SAXGenerator();
 
         DimenElement positiveDimenElement = new DimenElement();
-        positiveDimenElement.nameType = "px_positive_";
+        positiveDimenElement.nameType = "px_";
         positiveDimenElement.start = 1;
         positiveDimenElement.end = positiveEnd;
 
         DimenElement negativeDimenElement = new DimenElement();
-        negativeDimenElement.nameType = "px_negative_";
-        negativeDimenElement.start = -1;
-        negativeDimenElement.end = negativeEnd;
+        negativeDimenElement.nameType = "px_minus_";
+        negativeDimenElement.start = 1;
+        negativeDimenElement.end = Math.abs(negativeEnd);
 
         for (Values value : values) {
             String fileName = genFilesName(value);
@@ -161,7 +161,7 @@ public class MyDialog extends DialogWrapper {
                 dic.delete();
             }
             dic.mkdirs();
-            String dimenFile = dicPath + "dimen_px.xml";
+            String dimenFile = dicPath + "px_dimen.xml";
             File dimen = new File(dimenFile);
             if (dimen.exists()) {
                 dimen.delete();
