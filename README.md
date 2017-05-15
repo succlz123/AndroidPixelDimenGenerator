@@ -5,10 +5,12 @@
 ## Android Studio插件简介
 根据输入的像素来自动生成Android项目的dimen.xml文件,主要是为了适配国产Android TV盒子的各种分辨率。
 
-## 使用方法
-- 1.下载编译好的jar文件 - 文件位于out下的artifacts 2.官方插件库里搜索https://plugins.jetbrains.com/plugin/9700-android-pixel-dimen-generator
+## 下载方法
+1.下载编译好的jar文件 - 文件位于out下的artifacts，打开Android Studio - Preferences - Plugins - Install plugin from disk - Restart Android Studio
 
-- 打开Android Studio - Preferences - Plugins - Install plugin from disk - Restart Android Studio
+2.官方插件库里搜索 https://plugins.jetbrains.com/plugin/9700-android-pixel-dimen-generator ，打开Android Studio - Preferences - Plugins - Browse repositories - Restart Android Studio
+
+## 使用方法
 
 - 点击Tools菜单 - AndroidPixelDimenGenerator
 
