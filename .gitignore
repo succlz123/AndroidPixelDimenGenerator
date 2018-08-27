@@ -5,3 +5,13 @@ lib
 out/production
 
 .DS_Store
+
+.gradle
+.idea/gradle.xml
+.idea/misc.xml
+.idea/codeStyles
+.idea/copyright
+.idea/libraries
+.idea/markdown-navigator
+.idea/modules.xml
+.idea/workspace.xml
